@@ -1,12 +1,12 @@
 
 h1 {
-  color: blue;
+  color: white;
   text-align: center;
   width: 100%
 }
 
 h2 {
-  color: purple;
+  color: orange;
   font-style: italic;
   text-align: center;
 }
@@ -14,7 +14,8 @@ h2 {
 p {
   font-family: sans-serif;
   font-style: oblique;
-  color: brown;
+  text-align: center;
+  color: white;
 }
 
 ul {
@@ -23,4 +24,16 @@ ul {
   font-family: fantasy;
   font-style: normal;
   text-align: center;
+  color: white;
+}
+
+body {
+  background-image: radial-gradient(red, green, blue);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
